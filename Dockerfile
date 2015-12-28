@@ -1,4 +1,4 @@
-from ubuntu:14.04
+from docker pull armv7/armhf-ubuntu
 
 RUN apt-get -y update
 
