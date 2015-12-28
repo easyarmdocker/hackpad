@@ -1,4 +1,4 @@
-from docker pull armv7/armhf-ubuntu
+from docker pull armv7/armhf-ubuntu:latest
 
 RUN apt-get -y update
 
