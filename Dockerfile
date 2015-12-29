@@ -4,7 +4,6 @@ RUN apt-get -y update
 
 RUN apt-get install -yf \
     openjdk-7-jdk \
-    mysql-server \
     scala 
 
 RUN mkdir /etc/hackpad
